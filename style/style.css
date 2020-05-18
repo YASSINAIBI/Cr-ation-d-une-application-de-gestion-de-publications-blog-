@@ -1,0 +1,81 @@
+/* body{
+    background: linear-gradient(173deg, #faf910, #f6790a, #fc2626);
+    background-size: 600% 600%;
+    
+    -webkit-animation: yassine 20s ease infinite;
+    animation: yassine 20s ease infinite;
+    
+    @-webkit-keyframes yassine {
+        0%{background-position:54% 0%}
+        50%{background-position:47% 100%}
+        100%{background-position:54% 0%}
+    }
+    @keyframes yassine {
+        0%{background-position:54% 0%}
+        50%{background-position:47% 100%}
+        100%{background-position:54% 0%}
+    }
+} */
+
+body{
+    box-sizing: border-box;
+    background: url('../img/2754227.jpg') no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.loggin_register_forget{
+    position: absolute;
+    left: 31%;
+    top: 12%;
+}
+.loggin_register_forget .input-group input{
+    position: relative;
+    margin-top: 40px;
+    height: 46px;
+    top: 90px;
+    z-index: 50;
+}
+
+.loggin_register_forget .button{
+    position: relative;
+    top: 120px;
+    background-color: #EA2027;
+    color: white;
+}
+.loggin_register_forget h5{
+    color: white;
+    padding: 20px 16px 0px 14px;
+}
+.loggin_register_forget h6{
+    text-align: center;
+    transform: translateY(170%);
+    font-size: 50px;
+    color: aliceblue !important;
+}
+
+.loggin_register_forget .input-group-prepend{
+    display: block;
+    /* transform: translateY(29px) scale(0.7); */
+    position: relative;
+    top: 130px;
+}
+.loggin_register_forget .card-body{
+    padding-top: 0;
+    padding-left: 14px;
+    padding-right: 15px;
+}
+.loggin_register_forget ul li{
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+.loggin_register_forget ul li.active{
+    background-color: coral;
+}
+.loggin_register_forget .show-hide1{
+    display: none;
+}
+.loggin_register_forget .form2 label{
+    color: white;
+}
